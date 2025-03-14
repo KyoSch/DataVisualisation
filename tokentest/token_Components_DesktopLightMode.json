@@ -1,0 +1,2676 @@
+{
+  "md": {
+    "comp": {
+      "button": {
+        "primary": {
+          "default": {
+            "container": {
+              "border-gradient-angle": {
+                "$type": "number",
+                "$value": "{md.sys.color.gradient.angle}"
+              },
+              "border-gradient-end": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.end}"
+              },
+              "border-gradient-start": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.start}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.primary}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-icon-only": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.complete}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-primary}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-primary}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.label-large.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.line-height}"
+              }
+            }
+          },
+          "disabled": {
+            "container": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.disabled-primary}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.complete}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.label-large.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.line-height}"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "default": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-icon-only": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.complete}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.label-large.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.line-height}"
+              }
+            }
+          },
+          "disabled": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-icon-only": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.complete}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.label-large.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.line-height}"
+              }
+            }
+          }
+        },
+        "secondary-small": {
+          "default": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.3xs}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.complete}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.xs}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.label-small.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-small.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-small.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-small.line-height}"
+              }
+            }
+          },
+          "disabled": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.3xs}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.complete}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.xs}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.label-small.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-small.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-small.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-small.line-height}"
+              }
+            }
+          }
+        },
+        "tertiary": {
+          "default": {
+            "container": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-icon-only": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.complete}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.label-large.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.line-height}"
+              }
+            }
+          },
+          "disabled": {
+            "container": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-icon-only": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.complete}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.label-large.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.label-large.line-height}"
+              }
+            }
+          }
+        }
+      },
+      "notification": {
+        "error": {
+          "container": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-alert}"
+            },
+            "border-size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.border.default}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.alert}"
+            },
+            "gap": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.xs}"
+            },
+            "padding-horizontal": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.l}"
+            },
+            "padding-vertical": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.m}"
+            }
+          },
+          "icon": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-alert}"
+            },
+            "size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.icon-size.l}"
+            }
+          },
+          "text": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-alert}"
+            },
+            "font": {
+              "$type": "string",
+              "$value": "{md.sys.typography.body.font}"
+            },
+            "font-size": {
+              "$type": "number",
+              "$value": "{md.sys.typography.body.size}"
+            },
+            "font-weight": {
+              "$type": "number",
+              "$value": "{md.sys.typography.body.weight}"
+            },
+            "line-height": {
+              "$type": "number",
+              "$value": "{md.sys.typography.body.line-height}"
+            }
+          }
+        },
+        "informative": {
+          "container": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-informative}"
+            },
+            "border-size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.border.default}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.informative}"
+            },
+            "gap": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.xs}"
+            },
+            "padding-horizontal": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.l}"
+            },
+            "padding-vertical": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.m}"
+            }
+          },
+          "icon": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-informative}"
+            },
+            "size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.icon-size.l}"
+            }
+          },
+          "text": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-informative}"
+            },
+            "font": {
+              "$type": "string",
+              "$value": "{md.sys.typography.body.font}"
+            },
+            "font-size": {
+              "$type": "number",
+              "$value": "{md.sys.typography.body.size}"
+            },
+            "font-weight": {
+              "$type": "number",
+              "$value": "{md.sys.typography.body.weight}"
+            },
+            "line-height": {
+              "$type": "number",
+              "$value": "{md.sys.typography.body.line-height}"
+            }
+          }
+        },
+        "succes": {
+          "container": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-succes}"
+            },
+            "border-size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.border.default}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.succes}"
+            },
+            "gap": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.xs}"
+            },
+            "padding-horizontal": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.l}"
+            },
+            "padding-vertical": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.m}"
+            }
+          },
+          "icon": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-succes}"
+            },
+            "size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.icon-size.l}"
+            }
+          },
+          "text": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-succes}"
+            },
+            "font": {
+              "$type": "string",
+              "$value": "{md.sys.typography.body.font}"
+            },
+            "font-size": {
+              "$type": "number",
+              "$value": "{md.sys.typography.body.size}"
+            },
+            "font-weight": {
+              "$type": "number",
+              "$value": "{md.sys.typography.body.weight}"
+            },
+            "line-height": {
+              "$type": "number",
+              "$value": "{md.sys.typography.body.line-height}"
+            }
+          }
+        },
+        "warning": {
+          "container": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-warning}"
+            },
+            "border-size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.border.default}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.warning}"
+            },
+            "gap": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.xs}"
+            },
+            "padding-horizontal": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.l}"
+            },
+            "padding-vertical": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.m}"
+            }
+          },
+          "icon": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-warning}"
+            },
+            "size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.icon-size.l}"
+            }
+          },
+          "text": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-warning}"
+            },
+            "font": {
+              "$type": "string",
+              "$value": "{md.sys.typography.body.font}"
+            },
+            "font-size": {
+              "$type": "number",
+              "$value": "{md.sys.typography.body.size}"
+            },
+            "font-weight": {
+              "$type": "number",
+              "$value": "{md.sys.typography.body.weight}"
+            },
+            "line-height": {
+              "$type": "number",
+              "$value": "{md.sys.typography.body.line-height}"
+            }
+          }
+        }
+      },
+      "pop-over": {
+        "body": {
+          "color": {
+            "$type": "color",
+            "$value": "{md.sys.color.on-surface}"
+          },
+          "font": {
+            "$type": "string",
+            "$value": "{md.sys.typography.label-input.font}"
+          },
+          "font-size": {
+            "$type": "number",
+            "$value": "{md.sys.typography.label-input.size}"
+          },
+          "font-weight": {
+            "$type": "number",
+            "$value": "{md.sys.typography.label-input.weight}"
+          },
+          "gap": {
+            "$type": "number",
+            "$value": "{md.ref.sizing.spacing.xs}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "{md.sys.typography.label-input.line-height}"
+          }
+        },
+        "button": {
+          "gap": {
+            "$type": "number",
+            "$value": "{md.ref.sizing.spacing.xs}"
+          }
+        },
+        "container": {
+          "color": {
+            "$type": "color",
+            "$value": "{md.sys.color.secondary}"
+          },
+          "gap": {
+            "$type": "number",
+            "$value": "{md.ref.sizing.spacing.xs}"
+          },
+          "padding-horizontal": {
+            "$type": "number",
+            "$value": "{md.ref.sizing.spacing.xs}"
+          },
+          "padding-vertical": {
+            "$type": "number",
+            "$value": "{md.ref.sizing.spacing.xs}"
+          },
+          "radius": {
+            "$type": "number",
+            "$value": "{md.ref.sizing.radius.small}"
+          }
+        },
+        "icon": {
+          "color": {
+            "$type": "color",
+            "$value": "{md.sys.color.on-surface}"
+          },
+          "size": {
+            "$type": "number",
+            "$value": "{md.ref.sizing.icon-size.xs}"
+          }
+        },
+        "title": {
+          "color": {
+            "$type": "color",
+            "$value": "{md.sys.color.on-surface}"
+          },
+          "font": {
+            "$type": "string",
+            "$value": "{md.sys.typography.h6.font}"
+          },
+          "font-size": {
+            "$type": "number",
+            "$value": "{md.sys.typography.h6.size}"
+          },
+          "font-weight": {
+            "$type": "number",
+            "$value": "{md.sys.typography.h6.weight}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "{md.sys.typography.h6.line-height}"
+          }
+        }
+      },
+      "radio-button": {
+        "selected": {
+          "default": {
+            "icon": {
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.active}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "gradient-angle": {
+                "$type": "number",
+                "$value": "{md.sys.color.gradient.angle}"
+              },
+              "gradient-end": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.end}"
+              },
+              "gradient-start": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.start}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          },
+          "disabled": {
+            "icon": {
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.active}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          }
+        },
+        "unselected": {
+          "default": {
+            "icon": {
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.active}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          },
+          "disabled": {
+            "icon": {
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.active}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          }
+        }
+      },
+      "selectable-box": {
+        "extra-large": {
+          "default": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.medium}"
+              }
+            },
+            "container-content": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.surface}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.l}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.l}"
+              }
+            },
+            "container-title": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary-container}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.l}"
+              }
+            },
+            "label": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface-variant}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.line-height}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          },
+          "disabled": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.medium}"
+              }
+            },
+            "container-content": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.surface}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.l}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.l}"
+              }
+            },
+            "container-title": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.l}"
+              }
+            },
+            "label": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface-variant}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.line-height}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          },
+          "hover": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "elevation": {
+                "$type": "string",
+                "$value": "level 1"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.medium}"
+              }
+            },
+            "container-content": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.surface}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.l}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.l}"
+              }
+            },
+            "container-title": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary-container}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.l}"
+              }
+            },
+            "label": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface-variant}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.line-height}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          },
+          "selected": {
+            "container": {
+              "border-gradient-angle": {
+                "$type": "number",
+                "$value": "{md.sys.color.gradient.angle}"
+              },
+              "border-gradient-end": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.end}"
+              },
+              "border-gradient-start": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.start}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.active}"
+              },
+              "elevation": {
+                "$type": "string",
+                "$value": "level 1"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.medium}"
+              }
+            },
+            "container-content": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.surface}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.l}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.l}"
+              }
+            },
+            "container-title": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.primary-container}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary-container}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.l}"
+              }
+            },
+            "label": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface-variant}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.line-height}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          }
+        },
+        "extra-small": {
+          "default": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.informative}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.surface}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.s}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.large}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "padding-top": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.2xs}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "color-secondary": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface-variant}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.line-height}"
+              }
+            }
+          },
+          "disabled": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.informative}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.surface}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.s}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.large}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "padding-top": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.2xs}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "color-secondary": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface-variant}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.line-height}"
+              }
+            }
+          },
+          "hover": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.informative}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.surface}"
+              },
+              "elevation": {
+                "$type": "string",
+                "$value": "level 1"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.s}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.large}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "padding-top": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.2xs}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "color-secondary": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface-variant}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.line-height}"
+              }
+            }
+          },
+          "selected": {
+            "container": {
+              "border-gradient-angle": {
+                "$type": "number",
+                "$value": "{md.sys.color.gradient.angle}"
+              },
+              "border-gradient-end": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.end}"
+              },
+              "border-gradient-start": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.start}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.active}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.surface}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.s}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.large}"
+              }
+            },
+            "icon": {
+              "border-gradient-angle": {
+                "$type": "number",
+                "$value": "{md.sys.color.gradient.angle}"
+              },
+              "border-gradient-end": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.end}"
+              },
+              "border-gradient-start": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.start}"
+              },
+              "padding-top": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.2xs}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.m}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "color-secondary": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface-variant}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body.line-height}"
+              }
+            }
+          }
+        },
+        "medium": {
+          "default": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "elevation": {
+                "$type": "string",
+                "$value": "level 1"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.medium}"
+              }
+            },
+            "container-content": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.surface}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.3xl}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.l}"
+              }
+            },
+            "container-title": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary-container}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.l}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          },
+          "disabled": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.medium}"
+              }
+            },
+            "container-content": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.surface}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.3xl}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.l}"
+              }
+            },
+            "container-title": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-disabled-primary}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.l}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          },
+          "hover": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "elevation": {
+                "$type": "string",
+                "$value": "level 1"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.medium}"
+              }
+            },
+            "container-content": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.surface}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.3xl}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.l}"
+              }
+            },
+            "container-title": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary-container}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.l}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          },
+          "selected": {
+            "container": {
+              "border-gradient-angle": {
+                "$type": "number",
+                "$value": "{md.sys.color.gradient.angle}"
+              },
+              "border-gradient-end": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.end}"
+              },
+              "border-gradient-start": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.start}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.active}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.medium}"
+              }
+            },
+            "container-content": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.surface}"
+              },
+              "gap": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.xs}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.3xl}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.l}"
+              }
+            },
+            "container-title": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.primary-container}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary-container}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.l}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          }
+        },
+        "small": {
+          "default": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "elevation": {
+                "$type": "string",
+                "$value": "level-1"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.medium}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary-container}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.l}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          },
+          "disabled": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.medium}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary-container}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.l}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          },
+          "hover": {
+            "container": {
+              "border-color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.default}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.secondary-container}"
+              },
+              "elevation": {
+                "$type": "string",
+                "$value": "level-1"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.medium}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary-container}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.l}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          },
+          "selected": {
+            "container": {
+              "border-gradient-angle": {
+                "$type": "number",
+                "$value": "{md.sys.color.gradient.angle}"
+              },
+              "border-gradient-end": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.end}"
+              },
+              "border-gradient-start": {
+                "$type": "color",
+                "$value": "{md.sys.color.gradient.start}"
+              },
+              "border-size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.border.active}"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.primary-container}"
+              },
+              "padding-horizontal": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "padding-vertical": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.spacing.m}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.radius.medium}"
+              }
+            },
+            "icon": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-secondary-container}"
+              },
+              "size": {
+                "$type": "number",
+                "$value": "{md.ref.sizing.icon-size.l}"
+              }
+            },
+            "text": {
+              "color": {
+                "$type": "color",
+                "$value": "{md.sys.color.on-surface}"
+              },
+              "font": {
+                "$type": "string",
+                "$value": "{md.sys.typography.body-semibold.font}"
+              },
+              "font-size": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.size}"
+              },
+              "font-weight": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.weight}"
+              },
+              "line-height": {
+                "$type": "number",
+                "$value": "{md.sys.typography.body-semibold.line-height}"
+              }
+            }
+          }
+        }
+      },
+      "sticker": {
+        "error": {
+          "container": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-alert}"
+            },
+            "border-size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.border.active}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.surface}"
+            },
+            "padding-horizontal": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.xs}"
+            },
+            "padding-vertical": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.3xs}"
+            },
+            "radius": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.radius.small}"
+            }
+          },
+          "text": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-alert}"
+            },
+            "font": {
+              "$type": "string",
+              "$value": "{md.sys.typography.label-sticker.font}"
+            },
+            "font-size": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.size}"
+            },
+            "font-weight": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.weight}"
+            },
+            "line-height": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.line-height}"
+            }
+          }
+        },
+        "info": {
+          "container": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-informative}"
+            },
+            "border-size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.border.active}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.surface}"
+            },
+            "padding-horizontal": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.xs}"
+            },
+            "padding-vertical": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.3xs}"
+            },
+            "radius": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.radius.small}"
+            }
+          },
+          "text": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-informative}"
+            },
+            "font": {
+              "$type": "string",
+              "$value": "{md.sys.typography.label-sticker.font}"
+            },
+            "font-size": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.size}"
+            },
+            "font-weight": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.weight}"
+            },
+            "line-height": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.line-height}"
+            }
+          }
+        },
+        "neutral": {
+          "container": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-surface-variant}"
+            },
+            "border-size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.border.active}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.surface}"
+            },
+            "padding-horizontal": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.xs}"
+            },
+            "padding-vertical": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.3xs}"
+            },
+            "radius": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.radius.small}"
+            }
+          },
+          "text": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-surface-variant}"
+            },
+            "font": {
+              "$type": "string",
+              "$value": "{md.sys.typography.label-sticker.font}"
+            },
+            "font-size": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.size}"
+            },
+            "font-weight": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.weight}"
+            },
+            "line-height": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.line-height}"
+            }
+          }
+        },
+        "new": {
+          "container": {
+            "gradient-angle": {
+              "$type": "number",
+              "$value": "{md.sys.color.gradient.angle}"
+            },
+            "gradient-end": {
+              "$type": "color",
+              "$value": "{md.sys.color.gradient.end}"
+            },
+            "gradient-start": {
+              "$type": "color",
+              "$value": "{md.sys.color.gradient.start}"
+            },
+            "padding-horizontal": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.xs}"
+            },
+            "padding-vertical": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.3xs}"
+            },
+            "radius": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.radius.small}"
+            }
+          },
+          "text": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-primary}"
+            },
+            "font": {
+              "$type": "string",
+              "$value": "{md.sys.typography.label-sticker.font}"
+            },
+            "font-size": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.size}"
+            },
+            "font-weight": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.weight}"
+            },
+            "line-height": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.line-height}"
+            }
+          }
+        },
+        "ongoing": {
+          "container": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-warning}"
+            },
+            "border-size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.border.active}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.surface}"
+            },
+            "padding-horizontal": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.xs}"
+            },
+            "padding-vertical": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.3xs}"
+            },
+            "radius": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.radius.small}"
+            }
+          },
+          "text": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-warning}"
+            },
+            "font": {
+              "$type": "string",
+              "$value": "{md.sys.typography.label-sticker.font}"
+            },
+            "font-size": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.size}"
+            },
+            "font-weight": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.weight}"
+            },
+            "line-height": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.line-height}"
+            }
+          }
+        },
+        "succes": {
+          "container": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-succes}"
+            },
+            "border-size": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.border.active}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.surface}"
+            },
+            "padding-horizontal": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.xs}"
+            },
+            "padding-vertical": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.spacing.3xs}"
+            },
+            "radius": {
+              "$type": "number",
+              "$value": "{md.ref.sizing.radius.small}"
+            }
+          },
+          "text": {
+            "color": {
+              "$type": "color",
+              "$value": "{md.sys.color.on-succes}"
+            },
+            "font": {
+              "$type": "string",
+              "$value": "{md.sys.typography.label-sticker.font}"
+            },
+            "font-size": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.size}"
+            },
+            "font-weight": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.weight}"
+            },
+            "line-height": {
+              "$type": "number",
+              "$value": "{md.sys.typography.label-sticker.line-height}"
+            }
+          }
+        }
+      }
+    }
+  }
+}
