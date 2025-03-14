@@ -1,0 +1,380 @@
+{
+  "md": {
+    "ref": {
+      "palette": {
+        "neutral": {
+          "100": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "25": {
+            "$type": "color",
+            "$value": "#312f3b"
+          },
+          "35": {
+            "$type": "color",
+            "$value": "#6f6d77"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#acaab2"
+          },
+          "60": {
+            "$type": "color",
+            "$value": "#c5c4cc"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#d1d0d7"
+          },
+          "80": {
+            "$type": "color",
+            "$value": "#dedde3"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#eae9ee"
+          },
+          "98": {
+            "$type": "color",
+            "$value": "#f6f5f9"
+          }
+        },
+        "primary": {
+          "100": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#eb142a"
+          },
+          "98": {
+            "$type": "color",
+            "$value": "#fcedf4"
+          }
+        },
+        "secondary": {
+          "100": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "50": {
+            "$type": "color",
+            "$value": "#6e68ae"
+          },
+          "70": {
+            "$type": "color",
+            "$value": "#a29ecd"
+          },
+          "90": {
+            "$type": "color",
+            "$value": "#d7d5ed"
+          },
+          "98": {
+            "$type": "color",
+            "$value": "#f4f4ff"
+          }
+        },
+        "state-color": {
+          "alert": {
+            "50": {
+              "$type": "color",
+              "$value": "#d8170c"
+            },
+            "98": {
+              "$type": "color",
+              "$value": "#ffebe6"
+            }
+          },
+          "informative": {
+            "50": {
+              "$type": "color",
+              "$value": "#463ce5"
+            },
+            "98": {
+              "$type": "color",
+              "$value": "#f3f2ff"
+            }
+          },
+          "succes": {
+            "40": {
+              "$type": "color",
+              "$value": "#328154"
+            },
+            "50": {
+              "$type": "color",
+              "$value": "#46a46f"
+            },
+            "98": {
+              "$type": "color",
+              "$value": "#edfff4"
+            }
+          },
+          "warning": {
+            "40": {
+              "$type": "color",
+              "$value": "#bf4e03"
+            },
+            "50": {
+              "$type": "color",
+              "$value": "#f56600"
+            },
+            "98": {
+              "$type": "color",
+              "$value": "#fff4ed"
+            }
+          }
+        },
+        "tertiary": {
+          "50": {
+            "$type": "color",
+            "$value": "#de2174"
+          }
+        }
+      },
+      "sizing": {
+        "border": {
+          "active": {
+            "$type": "number",
+            "$value": 2
+          },
+          "default": {
+            "$type": "number",
+            "$value": 1
+          },
+          "panel": {
+            "$type": "number",
+            "$value": 1.5
+          }
+        },
+        "icon-size": {
+          "l": {
+            "$type": "number",
+            "$value": 24
+          },
+          "m": {
+            "$type": "number",
+            "$value": 20
+          },
+          "s": {
+            "$type": "number",
+            "$value": 16
+          },
+          "xs": {
+            "$type": "number",
+            "$value": 12
+          }
+        },
+        "radius": {
+          "complete": {
+            "$type": "number",
+            "$value": 500
+          },
+          "large": {
+            "$type": "number",
+            "$value": 16
+          },
+          "medium": {
+            "$type": "number",
+            "$value": 8
+          },
+          "small": {
+            "$type": "number",
+            "$value": 4
+          }
+        },
+        "spacing": {
+          "2xl": {
+            "$type": "number",
+            "$value": 40
+          },
+          "2xs": {
+            "$type": "number",
+            "$value": 4
+          },
+          "3xl": {
+            "$type": "number",
+            "$value": 48
+          },
+          "3xs": {
+            "$type": "number",
+            "$value": 2
+          },
+          "l": {
+            "$type": "number",
+            "$value": 24
+          },
+          "m": {
+            "$type": "number",
+            "$value": 16
+          },
+          "negative": {
+            "$type": "number",
+            "$value": -8
+          },
+          "s": {
+            "$type": "number",
+            "$value": 12
+          },
+          "xl": {
+            "$type": "number",
+            "$value": 32
+          },
+          "xs": {
+            "$type": "number",
+            "$value": 8
+          },
+          "zero": {
+            "$type": "number",
+            "$value": 0
+          }
+        }
+      },
+      "typography": {
+        "font-size": {
+          "body": {
+            "$type": "number",
+            "$value": 16
+          },
+          "body-small": {
+            "$type": "number",
+            "$value": 14
+          },
+          "button-label": {
+            "$type": "number",
+            "$value": 16
+          },
+          "field-input": {
+            "$type": "number",
+            "$value": 12
+          },
+          "h1": {
+            "$type": "number",
+            "$value": 29
+          },
+          "h2": {
+            "$type": "number",
+            "$value": 26
+          },
+          "h3": {
+            "$type": "number",
+            "$value": 23
+          },
+          "h4": {
+            "$type": "number",
+            "$value": 20
+          },
+          "h5": {
+            "$type": "number",
+            "$value": 18
+          },
+          "h6": {
+            "$type": "number",
+            "$value": 16
+          },
+          "menu-header": {
+            "$type": "number",
+            "$value": 14
+          },
+          "table-header": {
+            "$type": "number",
+            "$value": 16
+          }
+        },
+        "font-weight": {
+          "black": {
+            "$type": "number",
+            "$value": 900
+          },
+          "bold": {
+            "$type": "number",
+            "$value": 700
+          },
+          "extra-black": {
+            "$type": "number",
+            "$value": 950
+          },
+          "extra-bold": {
+            "$type": "number",
+            "$value": 800
+          },
+          "extra-light": {
+            "$type": "number",
+            "$value": 200
+          },
+          "light": {
+            "$type": "number",
+            "$value": 300
+          },
+          "medium": {
+            "$type": "number",
+            "$value": 500
+          },
+          "normal": {
+            "$type": "number",
+            "$value": 400
+          },
+          "semi-bold": {
+            "$type": "number",
+            "$value": 600
+          },
+          "thin": {
+            "$type": "number",
+            "$value": 100
+          }
+        },
+        "line-height": {
+          "body": {
+            "$type": "number",
+            "$value": 26
+          },
+          "body-small": {
+            "$type": "number",
+            "$value": 20
+          },
+          "button-label": {
+            "$type": "number",
+            "$value": 20
+          },
+          "field-input": {
+            "$type": "number",
+            "$value": 18
+          },
+          "h1": {
+            "$type": "number",
+            "$value": 52
+          },
+          "h2": {
+            "$type": "number",
+            "$value": 46
+          },
+          "h3": {
+            "$type": "number",
+            "$value": 40
+          },
+          "h4": {
+            "$type": "number",
+            "$value": 35
+          },
+          "h5": {
+            "$type": "number",
+            "$value": 32
+          },
+          "h6": {
+            "$type": "number",
+            "$value": 28
+          },
+          "menu-header": {
+            "$type": "number",
+            "$value": 20
+          },
+          "table-header": {
+            "$type": "number",
+            "$value": 26
+          }
+        }
+      }
+    }
+  }
+}

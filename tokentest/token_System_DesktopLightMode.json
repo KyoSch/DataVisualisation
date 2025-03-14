@@ -1,0 +1,234 @@
+{
+  "md": {
+    "sys": {
+      "color": {
+        "alert": {
+          "$type": "color",
+          "$value": "{md.ref.palette.state-color.alert.98}"
+        },
+        "disabled-primary": {
+          "$type": "color",
+          "$value": "{md.ref.palette.neutral.90}"
+        },
+        "gradient": {
+          "angle": {
+            "$type": "number",
+            "$value": -90
+          },
+          "end": {
+            "$type": "color",
+            "$value": "{md.ref.palette.primary.50}"
+          },
+          "start": {
+            "$type": "color",
+            "$value": "{md.ref.palette.tertiary.50}"
+          }
+        },
+        "informative": {
+          "$type": "color",
+          "$value": "{md.ref.palette.state-color.informative.98}"
+        },
+        "on-alert": {
+          "$type": "color",
+          "$value": "{md.ref.palette.state-color.alert.50}"
+        },
+        "on-disabled-primary": {
+          "$type": "color",
+          "$value": "{md.ref.palette.neutral.60}"
+        },
+        "on-informative": {
+          "$type": "color",
+          "$value": "{md.ref.palette.state-color.informative.50}"
+        },
+        "on-primary": {
+          "$type": "color",
+          "$value": "{md.ref.palette.primary.100}"
+        },
+        "on-primary-container": {
+          "$type": "color",
+          "$value": "{md.ref.palette.primary.50}"
+        },
+        "on-secondary": {
+          "$type": "color",
+          "$value": "{md.ref.palette.secondary.50}"
+        },
+        "on-secondary-container": {
+          "$type": "color",
+          "$value": "{md.ref.palette.secondary.50}"
+        },
+        "on-succes": {
+          "$type": "color",
+          "$value": "{md.ref.palette.state-color.succes.40}"
+        },
+        "on-surface": {
+          "$type": "color",
+          "$value": "{md.ref.palette.neutral.25}"
+        },
+        "on-surface-variant": {
+          "$type": "color",
+          "$value": "{md.ref.palette.neutral.35}"
+        },
+        "on-warning": {
+          "$type": "color",
+          "$value": "{md.ref.palette.state-color.warning.40}"
+        },
+        "primary": {
+          "$type": "color",
+          "$value": "{md.ref.palette.primary.50}"
+        },
+        "primary-container": {
+          "$type": "color",
+          "$value": "{md.ref.palette.primary.98}"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{md.ref.palette.secondary.100}"
+        },
+        "secondary-container": {
+          "$type": "color",
+          "$value": "{md.ref.palette.secondary.98}"
+        },
+        "succes": {
+          "$type": "color",
+          "$value": "{md.ref.palette.state-color.succes.98}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{md.ref.palette.neutral.100}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{md.ref.palette.state-color.warning.98}"
+        }
+      },
+      "typography": {
+        "body": {
+          "font": {
+            "$type": "string",
+            "$value": "Source Sans Pro"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "{md.ref.typography.line-height.body}"
+          },
+          "size": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-size.body}"
+          },
+          "weight": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-weight.normal}"
+          }
+        },
+        "body-semibold": {
+          "font": {
+            "$type": "string",
+            "$value": "Source Sans Pro"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "{md.ref.typography.line-height.body}"
+          },
+          "size": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-size.body}"
+          },
+          "weight": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-weight.semi-bold}"
+          }
+        },
+        "h6": {
+          "font": {
+            "$type": "string",
+            "$value": "Poppins"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "{md.ref.typography.line-height.h6}"
+          },
+          "size": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-size.h6}"
+          },
+          "weight": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-weight.semi-bold}"
+          }
+        },
+        "label-input": {
+          "font": {
+            "$type": "string",
+            "$value": "Source Sans Pro"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "{md.ref.typography.line-height.field-input}"
+          },
+          "size": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-size.field-input}"
+          },
+          "weight": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-weight.normal}"
+          }
+        },
+        "label-large": {
+          "font": {
+            "$type": "string",
+            "$value": "Poppins"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "{md.ref.typography.line-height.button-label}"
+          },
+          "size": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-size.button-label}"
+          },
+          "weight": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-weight.medium}"
+          }
+        },
+        "label-small": {
+          "font": {
+            "$type": "string",
+            "$value": "Poppins"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "{md.ref.typography.line-height.button-label}"
+          },
+          "size": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-size.body-small}"
+          },
+          "weight": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-weight.normal}"
+          }
+        },
+        "label-sticker": {
+          "font": {
+            "$type": "string",
+            "$value": "Source Sans Pro"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "{md.ref.typography.line-height.button-label}"
+          },
+          "size": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-size.field-input}"
+          },
+          "weight": {
+            "$type": "number",
+            "$value": "{md.ref.typography.font-weight.medium}"
+          }
+        }
+      }
+    }
+  }
+}
